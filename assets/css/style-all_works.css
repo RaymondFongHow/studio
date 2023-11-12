@@ -1,0 +1,62 @@
+.all_works_main {
+    position: absolute;
+    top: 15vw;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.work_time p {
+    font-weight: 100;
+    font-size: 5vw;
+    font-style: italic;
+    text-align: center;
+
+    margin: 0vw 0vw;
+}
+
+.works_list {
+    margin: 0vw 10vw;
+}
+
+.work_info {
+    display: flex;
+    align-items: start;
+
+    margin-top: 5vw;
+    margin-bottom: 6vw;
+}
+
+.work_cover {
+    margin-right: 3vw;
+    flex:4;
+}
+
+.work_cover img {
+    height: 100%;
+    width: 100%;
+    object-fit: contain;
+}
+
+.work_text {
+    flex: 8;
+}
+
+.work_header p {
+    font-weight: 900;
+    font-size: 2vw;
+    font-style: italic;
+
+    margin: 0vw 0vw;
+}
+
+.work_intro {
+    font-size: 1.5vw;
+    text-align: justify;
+
+    margin: 0vw 0vw;
+}
+
+.work_intro p {
+    margin: 1vw 0vw;
+}

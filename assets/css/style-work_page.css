@@ -1,0 +1,38 @@
+.work_page_main {
+    position: absolute;
+    top: 25%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.work_player {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 0vw 10vw;
+}
+
+.work_player div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player_cover img {
+    width: 40%;
+    object-fit: contain;
+}
+
+.work_title {
+    height: 5vw;
+
+    font-weight: 100;
+    font-size: 2vw;
+
+    margin: 0vw 0vw;
+}
+
+.song_block audio {
+    width: 41%;
+}

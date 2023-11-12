@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gallery - Albums</title>
+
+    <!-- <script type="text/javascript" src="assets/js/fading_nav_bar.js"></script> -->
+
+    <!--
+        use: <link rel="stylesheet" href="../assets/css">
+    -->
+    <link rel="stylesheet" href="../assets/css/style-general.css">
+    <link rel="stylesheet" href="../assets/css/style-fonts.css">
+    <link rel="stylesheet" href="../assets/css/style-nav.css">
+    <link rel="stylesheet" href="../assets/css/style-intro.css">
+    <link rel="stylesheet" href="../assets/css/style-coming_soon.css">
+    <link rel="stylesheet" href="../assets/css/style-albums.css">
+    <link rel="stylesheet" href="../assets/css/style-album_page.css">
+</head>
+<body>
+    <header>
+        <div class="header_album_cover">
+            <img src="../assets/images/albums/Precipitation/Precipitation-01.png" alt="Assembling Pages">
+            <p class="scroll_down_symbol">
+                <span style="display: inline-block; transform: rotate(90deg);">></span>
+            </p>
+        </div>
+        <nav class="navbar">
+            <a class="brand" href="../index.html">
+                <div class="brand_box">
+                    <img src="../assets/images/common/logo-white.png" alt="LOGO">
+                    <div>
+                        <p class="title">Gallery</p>
+                        <p class="tagline">Raymond Fong How</p>
+                    </div>
+                </div>
+            </a>
+            <a class="nav_opt" href="../albums.html">
+                <p>Albums</p>
+            </a>
+            <a class="nav_opt" href="../all_works.html">
+                <p>All Works</p>
+            </a>
+            <a class="nav_opt" href="../about_me.html">
+                <p>About Me</p>
+            </a>
+        </nav>
+    </header>
+    <script>
+        console.log("hi");
+        const navEl = document.querySelector('.navbar');
+        console.log(navEl);
+        window.addEventListener('scroll', () => {
+            if (window. scrollY >= 300) {
+                navEl.classList.add("navbar-scrolled")
+            } else if (window. scrollY < 300) {
+                navEl.classList.remove("navbar-scrolled")
+            }
+        })
+    </script>
+    <script>
+        console.log("hii");
+        const bodyEl = document.querySelector('body');
+        console.log(bodyEl);
+        window.addEventListener('scroll', () => {
+            if (window. scrollY >= 1700) {
+                bodyEl.classList.add("precip-bg-scrolled")
+            } else if (window. scrollY < 1700) {
+                bodyEl.classList.remove("precip-bg-scrolled")
+            }
+        })
+    </script>
+    <main class="album_main">
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-02.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-03.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-04.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-05.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-06.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-07.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-08.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-09.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-10.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-11.png" alt="Precipitation-02.png">
+        </section>
+        <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-12.png" alt="Precipitation-02.png">
+        </section>
+        <!-- <section class="album_sheet">
+            <img src="../assets/images/albums/Precipitation/Precipitation-13.png" alt="Precipitation-02.png">
+        </section> -->
+    </main>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Studio - All Works</title>
+
+        <!-- <script type="text/javascript" src="assets/js/fading_nav_bar.js"></script> -->
+
+        <!--
+            use: <link rel="stylesheet" href="assets/css">
+        -->
+        <link rel="stylesheet" href="assets/css/style-general.css">
+        <link rel="stylesheet" href="assets/css/style-fonts.css">
+        <link rel="stylesheet" href="assets/css/style-nav.css">
+        <link rel="stylesheet" href="assets/css/style-intro.css">
+        <link rel="stylesheet" href="assets/css/style-coming_soon.css">
+        <link rel="stylesheet" href="assets/css/style-all_works.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a class="brand" href="index.html">
+                    <div class="brand_box">
+                        <img src="assets/images/common/logo-white.png" alt="LOGO">
+                        <div>
+                            <p class="title">Studio</p>
+                            <p class="tagline">Raymond Fong How</p>
+                        </div>
+                    </div>
+                </a>
+                <a class="nav_opt" href="albums.html">
+                    <p>Albums</p>
+                </a>
+                <a class="nav_opt" href="all_works.html">
+                    <p>All Works</p>
+                </a>
+                <a class="nav_opt" href="about_me.html">
+                    <p>About Me</p>
+                </a>
+            </nav>
+        </header>
+        <script>
+            console.log("hi");
+            const navEl = document.querySelector('.navbar');
+            console.log(navEl);
+            window.addEventListener('scroll', () => {
+                if (window. scrollY >= 150) {
+                    navEl.classList.add("navbar-scrolled")
+                } else if (window. scrollY < 150) {
+                    navEl.classList.remove("navbar-scrolled")
+                }
+            })
+        </script>
+
+
+        <main class="all_works_main">
+
+
+            <section class="works_list">
+                <div>
+                    <div class="work_time">
+                        <p>Recent</p>
+                    </div>
+                    <div class="work_info">
+                        <div class="work_cover">
+                            <img src="assets/images/album_covers/ginkgo-winter_cover.png" alt="ginkgo-winter_cover">
+                        </div>
+                        <div class="work_text">
+                            <div class="work_header">
+                                <p><a href="work_pages/ginkgo_winter.html"><span lang="cn">银杏 · 暖冬</span> Ginkgo-Winter</a>, May 2021</p>
+                            </div>
+                            <div class="work_intro">
+                                <p>In the timely spring rain, all creatures are nourished, 
+                                    awakening from their slumber. People marvel at the 
+                                    gentle drizzle and praise the might of the deluge. 
+                                    Standing in rain, I found myself pondering: how would rain 
+                                    appear through my lens? What other forms does it take? 
+                                    In Singapore, where four seasons are absent, how does 
+                                    rain possess its own unique charm? How would the falling 
+                                    raindrops stir the depths of people's minds? These 
+                                    musings inspired me to curate a collection of photographs 
+                                    taken over the past two years, capturing the essence of 
+                                    rain in all its forms - be it the falling rain, the 
+                                    lively splashes and ripples of raindrops, the graceful 
+                                    dance of snow, or the ephemeral beauty of rainbows 
+                                    that emerge after storms. With that, I'm thrilled to 
+                                    present to you the photo album <span style="font-style: italic;">Precipitation.</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+
+
+
+
+            
+
+
+
+
+
+            <section>
+                <br><br><br><br><br><br><br><br><br>
+            </section>
+
+
+        </main>
+    </body>
+</html>
