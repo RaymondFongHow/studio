@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Studio - Gardenia-Fall</title>
+
+        <!-- <script type="text/javascript" src="assets/js/fading_nav_bar.js"></script> -->
+
+        <!--
+            use: <link rel="stylesheet" href="../assets/css">
+        -->
+        <link rel="stylesheet" href="../assets/css/style-general.css">
+        <link rel="stylesheet" href="../assets/css/style-fonts.css">
+        <link rel="stylesheet" href="../assets/css/style-nav.css">
+        <link rel="stylesheet" href="../assets/css/style-intro.css">
+        <link rel="stylesheet" href="../assets/css/style-coming_soon.css">
+        <link rel="stylesheet" href="../assets/css/style-all_works.css">
+        <link rel="stylesheet" href="../assets/css/style-work_page.css">
+    </head>
+    <body>
+        <header>
+            <nav class="navbar">
+                <a class="brand" href="../index.html">
+                    <div class="brand_box">
+                        <img src="../assets/images/common/logo-white.png" alt="LOGO">
+                        <div class="brand_text">
+                            <div>
+                                <p class="title">Studio</p>
+                            </div>
+                            <div>
+                                <p class="tagline">Raymond Fong How</p>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+                <div class="nav_blank">
+                    
+                </div>
+                <div class="nav_opt">
+                    <a href="../albums.html">
+                        <p>Albums</p>
+                    </a>
+                </div>
+                <div class="nav_opt">
+                    <a href="../all_works.html">
+                        <p>All Works</p>
+                    </a>
+                </div>
+                <div class="nav_opt">
+                    <a href="../about_me.html">
+                        <p>About Me</p>
+                    </a>
+                </div>
+            </nav>
+        </header>
+        <script>
+            console.log("hi");
+            const navEl = document.querySelector('.navbar');
+            console.log(navEl);
+            window.addEventListener('scroll', () => {
+                if (window. scrollY >= 150) {
+                    navEl.classList.add("navbar-scrolled")
+                } else if (window. scrollY < 150) {
+                    navEl.classList.remove("navbar-scrolled")
+                }
+            })
+        </script>
+
+
+        <main class="work_page_main">
+
+            <section class="work_player">
+                <div class="player_cover">
+                    <img src="../assets/images/album_covers/gardenia-fall_cover.jpg" alt="gardenia-fall_cover">
+                </div>
+                <div class="work_title">
+                    <p><span>栀子 · 初秋</span> Gardenia-Fall</p>
+                </div>
+                <div class="song_block">
+                    <audio controls>
+                        <source src="../assets/audio/Gardenia-Fall.mp3" type="audio/mp3">
+                        Your browser does not support the audio element.
+                    </audio>
+                </div>
+            </section>
+
+            <br><br><br><br><br>
+
+            <section class="work_section">
+                <div class="work_section_title">
+                    <p>Description</p>
+                    <div>
+                        <p>Here is the discription</p>
+                    </div>
+                </div>
+            </section>
+
+
+            <section class="work_section">
+                <div class="work_section_title">
+                    <p>Lyrics</p>
+                </div>
+                <div class="lyrics_text">
+                    <div class="chinese_lyrics">
+                        <p>
+                            中文歌词
+                        </p>
+                    </div>
+                    <div class="english_lyrics">
+                        <p>
+                            English Lyrics
+                        </p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="work_section">
+                <div class="work_section_title">
+                    <p>Resources</p>
+                </div>
+                <div>
+                    <a>
+                        None
+                    </a>
+                </div>
+            </section>
+
+            <section>
+                <br><br><br><br><br><br><br><br><br><br><br>
+            </section>
+
+        </main>
+    </body>
+</html>

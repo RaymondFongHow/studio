@@ -12,7 +12,7 @@
     font-style: italic;
     text-align: center;
 
-    margin: 0vw 0vw;
+    margin-top: 5vw;
 }
 
 .works_list {
@@ -42,12 +42,19 @@
     flex: 8;
 }
 
-.work_header p {
+.work_title{
     font-weight: 900;
     font-size: 2vw;
     font-style: italic;
 
-    margin: 0vw 0vw;
+    margin: 0vw 0vw 1vw 0vw;
+}
+
+.work_details {
+    font-weight: 100;
+    font-size: 2vw;
+
+    margin: 0vw 0vw 1.5vw 0vw;
 }
 
 .work_intro {
